@@ -1,266 +1,572 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
-  <title>
-    UCL-GOSH Team 6 Research
-  </title>
-  <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <!-- Nucleo Icons -->
-  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-  <!-- Font Awesome Icons -->
-  <link href="./assets/css/font-awesome.css" rel="stylesheet" />
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-  <!-- CSS Files -->
-  <link href="./assets/css/argon-design-system.css?v=1.2.0" rel="stylesheet" />
+
+<!-- Page title -->
+<title>UCL-GOSH Team6 Research</title>
+
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="img/favicon.png">
+
+<!-- Style -->
+<link rel="stylesheet" href="css/theme.css">
+
 </head>
-
 <body>
-  <!-- Navbar -->
-  <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
-    <div class="container">
-      <a class="navbar-brand mr-lg-5" href="./home.html">
-        <img src="./assets/img/brand/NHS.png">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse" id="navbar_global">
-        <div class="navbar-collapse-header">
-          <div class="row">
-            <div class="col-6 collapse-brand">
-              <a href="./home.html">
-                <img src="./assets/img/brand/NHS.png">
-              </a>
-            </div>
-            <div class="col-6 collapse-close">
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-              </button>
-            </div>
-          </div>
-        </div>
 
+<!-- Preloader -->
+<div id="preloader">
+<div class="loader"></div>
+</div>
+<!-- /Preloader -->
+
+<!-- Header -->
+<header id="home" class="header">
+
+<!-- Navigation -->
+<nav id="navigation" class="navbar affix">
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-12">
+
+				<!-- Navigation Header -->
+				<div class="navbar-header">
+
+					<!-- Toggle Button -->
+					<button type="button"
+							class="navbar-toggle collapsed"
+							data-toggle="collapse"
+							data-target="#main-menu"
+							aria-expanded="false"
+							aria-controls="main-menu">
+
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+
+					</button>
+					<!-- /Toggle Button -->
+
+					<!-- Brand -->
+					<a href="#" class="brand">
+
+						<!-- Logo Big -->
+						<img src="img/brand/NHS.png" style="width:80px;" class="logo-big" alt="">
+						<!-- /Logo Big -->
+
+					</a>
+					<!-- /Brand -->
+
+				</div>
+				<!-- /Navigation Header -->
+
+				<!-- Navigation -->
+				<div id="main-menu" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="home.html">Home</a>
+							<ul class="dropdown-menu">
+								<li><a href="home.html#about">Abstract</a></li>
+								<li><a href="home.html#about">Motivation</a></li>
+								<li><a href="home.html#about">Solution</a></li>
+								<li><a href="home.html#contents">Protofolio Contents</a></li>
+								<li><a href="home.html#tech-stack">Tech Stack</a></li>
+								<li><a href="home.html#best-features">Best Features</a></li>
+								<li><a href="home.html#team-members">Team Members</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="requirements.html" class="dropdown-toggle">Requirements</a>
+							<ul class="dropdown-menu">
+                                <li><a href="requirements.html#user-interview">User Interview</a></li>
+                                <li><a href="requirements.html#persona">Persona</a></li>
+								<li><a href="requirements.html#moscow-requirements">MoSCoW Requirements</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="research.html" class="dropdown-toggle">Research</a>
+							<ul class="dropdown-menu">
+								<li><a href="research.html#primary-research">Primary Research</a></li>
+								<li><a href="research.html#industrial-research">Industrial Research</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="algorithms.html" class="dropdown-toggle">Algorithms</a>
+							<ul class="dropdown-menu">
+								
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="design.html" class="dropdown-toggle">Design</a>
+							<ul class="dropdown-menu">
+								<li><a href="design.html#hci-sketching">HCI-Sketching</a></li>
+                                <li><a href="design.html#prototype">Prototype</a></li>
+                                <li><a href="design.html#prototype-evaluation">Prototype Evaluation</a></li>
+                                <li><a href="design.html#improved-prototype">Improved Prototype</a></li>
+                                <li><a href="design.html#final-prototype">Final Prototype</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="testing.html" class="dropdown-toggle">Testing</a>
+							<ul class="dropdown-menu">
+								
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="evaluation.html" class="dropdown-toggle">Evaluation</a>
+							<ul class="dropdown-menu">
+								
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="appendices.html" class="dropdown-toggle">Appendices</a>
+							<ul class="dropdown-menu">
+						
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="https://comp0016-team6.github.io/Dev-Blog/" class="dropdown-toggle">Dev Blog</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /Navigation -->
+
+			</div>
+		</div>
+
+	</div>
+</nav>
+<!-- /Navigation -->
+</header>
+<!-- /Header -->
+
+<!-- Section: Page Header -->
+<section class="section-page-header">
+    <div class="container">
         <div class="row">
-          <ul class="nav nav-tabs navbar-nav navbar-nav-hover align-items-lg-center">
-            <li class="nav-items">
-              <a href="home.html" class="nav-link" role="button">
-              <i class="ni ni-collection d-lg-none"></i>
-              <span class="nav-link-inner--text">Home</span>
-            </a>
-            </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbar-default_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="ni ni-collection d-lg-none"></i>
-                  <span class="nav-link-inner--text">Contents</span>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
-                <a class="dropdown-item" href="requirements.html">Requirements</a>
-                <a class="dropdown-item" href="research.html">Research</a>
-                <a class="dropdown-item" href="algorithms.html">Algorithms</a>
-                <a class="dropdown-item" href="ui-design.html">UI Design</a>
-                <a class="dropdown-item" href="system-design.html">System Design</a>
-                <a class="dropdown-item" href="implementation.html">Implementation</a>
-                <a class="dropdown-item" href="testing.html">Testing</a>
-                <a class="dropdown-item" href="evaluation.html">Evaluation</a>
-                <a class="dropdown-item" href="appendices.html">Appendices</a>
-                <a class="dropdown-item" href="https://comp0016-team6.github.io/Dev-Blog/">Development Blog</a>
-              </div>
-            </li>
+            <!-- Page Title -->
+            <div class="col-md-8">
+                <h1 class="title">Research</h1>
+            </div>
+            <!-- /Page Title -->
 
-            <li class="nav-item">
-              <a href="https://github.com/COMP0016-Team6" class="nav-link" role="button">
-                <i class="ni ni-collection d-lg-none"></i>
-                <span class="nav-link-inner--text">GitHub</span>
-              </a>
-            </li> 
-  
-            <li class="nav-item">
-              <a href="https://comp0016-team6.github.io/Dev-Blog/" class="nav-link" role="button">
-                <i class="ni ni-collection d-lg-none"></i>
-                <span class="nav-link-inner--text">Dev Blog</span>
-              </a>
-            </li> 
+            <!-- Breadcrumbs -->
+            <div class="col-md-4">
+                <ul class="breadcrumb">
+                    <li><i class="fa fa-fw fa-home"></i> <a href="home.html">Home</a></li>
+                    <li>Research</li>
+                </ul>
+            </div>
+            <!-- /Breadcrumbs -->
 
-            <li class="nav-item">
-              <a href="about.html" class="nav-link" role="button">
-                <i class="ni ni-collection d-lg-none"></i>
-                <span class="nav-link-inner--text">About</span>
-              </a>
-            </li> 
-          </ul>
         </div>
-      </div>
     </div>
-  </nav>
-  <!-- End Navbar -->
-  <div class="wrapper">
-    <div class="section section-shaped">
-      <div class="shape shape-style-1 shape-primary">
-        <span class="span-150"></span>
-        <span class="span-50"></span>
-        <span class="span-50"></span>
-        <span class="span-75"></span>
-        <span class="span-100"></span>
-        <span class="span-75"></span>
-        <span class="span-50"></span>
-        <span class="span-100"></span>
-        <span class="span-50"></span>
-        <span class="span-100"></span>
-      </div>
-    </div>
-  <div class="section section-components pb-0" id="section-components">
-    <div class="container">
-      <h2 class="display-2 mb-3">Research</h2>
-    </div>
-    <div class="container">
-      <h3 class="display-3">Primary Research</h3>
-      <p>
-        The system will be used in a clinical context, therefore, clients wanted us to get familiar with infusion pumps and asked to 
-        conduct primary research on different types of sensors used in infusion pumps. 
-      </p>
-      <p>
-        We continued our primary research into infusion pumps and now have a better understanding of the purpose of the project. 
-        We have made progress by reading official manuals and research papers about smart infusion pumps, 
-        which helped us gain deeper understanding of the sensors and other components widely used in infusion pumps such as force sensors, 
-        pressure sensors and magnetic position sensor.
-      </p>
-      <p>
-        Some of the documents we read through to get familiar with sensors:
-      </p>
-      <ul>
-        <li>Sensors for infusion pump - 
-          <a href="https://sensing.honeywell.com/SIOT-Solutions-Infusion-Pumps-_008045-10-EN.pdf">
-            https://sensing.honeywell.com/SIOT-Solutions-Infusion-Pumps-_008045-10-EN.pdf
-          </a>
-        </li>
-        <li>Force Sensors, Basic ABP Series - 
-          <a href="https://sensing.honeywell.com/honeywell-sensing-basic-board-mount-pressure-abp-series-datasheet-32305128-en.pdf">
-            https://sensing.honeywell.com/honeywell-sensing-basic-board-mount-pressure-abp-series-datasheet-32305128-en.pdf
-          </a>
-        </li>
-        <li>MicroForce FMA Series Force Sensors Datasheet -
-          <a href="https://sensing.honeywell.com/honeywell-sensing-force-fma-series-datasheet-32347833.pdf">
-            https://sensing.honeywell.com/honeywell-sensing-force-fma-series-datasheet-32347833.pdf
-          </a>
-        </li>
-        <li>Magnetic position sensors,SS490 Datasheet -
-          <a href="https://sensing.honeywell.com/honeywell-sensing-sensors-linear-hall-effect-ics-ss490-series-datasheet-005843-2-en.pdf">
-            https://sensing.honeywell.com/honeywell-sensing-sensors-linear-hall-effect-ics-ss490-series-datasheet-005843-2-en.pdf
-          </a>
-        </li>
-        <li>High Range Precision Miniature Load Cells, Model 31 High datasheet -
-          <a href=" https://sensing.honeywell.com/honeywell-test-and-measurement-model-31-high-miniature-load-cell-product-sheet-008631-2-en.pdf">
-             https://sensing.honeywell.com/honeywell-test-and-measurement-model-31-high-miniature-load-cell-product-sheet-008631-2-en.pdf
-          </a>
-        </li>
-        <li>N670X Series 2D Scan Engines Datasheet -
-          <a href="https://sensing.honeywell.com/honeywell-sensing-sensors-linear-hall-effect-ics-ss490-series-datasheet-005843-2-en.pdf">
-            https://sensing.honeywell.com/honeywell-oem-2d-imagers-n670x-series-datasheet-007613.pdf
-          </a>
-        </li>
-      </ul>
-      <img src="assets/img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_03.png" class="img-fluid mb-5">
-      <img src="assets/img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_04.png" class="img-fluid mb-5">
-      <img src="assets/img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_05.png" class="img-fluid mb-5">
-      <img src="assets/img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_06.png" class="img-fluid mb-5">
-      <img src="assets/img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_07.png" class="img-fluid mb-5">
-      <img src="assets/img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_08.png" class="img-fluid mb-5">
-      <img src="assets/img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_09.png" class="img-fluid mb-5">
-    </div>
-    <div class="container">
-      <h3 class="display-3">Industrial Research</h3>
-      <p>
-        In this phrase, we were focused on conducting the requested primary research into the 
-        <strong>types of sensors used in the industrial infusion pumps</strong> 
-        and looking into the <strong>Fast Healthcare Interoperability Resources (FHIR) standards</strong>.
-      </p>
-      <p>
-        We first started the research by finding out the biggest infusion pump sensor manufacturers in the world and looking at their sensors. 
-        The biggest manufacturers are <a href="https://www.honeywell.com/us/en">Honeywell</a>, <a href="https://www.te.com/global-en/home.html">TE Connectivity</a>, 
-        and <a href="https://www.smdsensors.com/">Strain Measurement Devices (SMD)</a>. All had a long presence in the industry and proved the quality of their sensors.
-      </p>
-      <img src="assets/img/portfolio/research/team6 - industrial research/team6 - industrial research_07.png" class="img-fluid mb-5">
-      <p>
-        Digging deeper into the research we found out that the seminal components in infusion pumps are <strong>Force</strong> and <strong>Pressure sensors</strong>.
-        There are many different types of force sensors, however, by far, the most popular ones are 
-        <strong>S256</strong> by SMD and <strong>MicroForce FMA</strong> series by Honeywell.
-      </p>
-      <img src="assets/img/portfolio/research/team6 - industrial research/team6 - industrial research_08.png" class="img-fluid mb-5">
-      <p>
-        For the pressure sensors, <strong>B354</strong> by SMD and <strong>MicroPressure MPR</strong> series by Honeywell take the lead.
-      </p>
-      <img src="assets/img/portfolio/research/team6 - industrial research/team6 - industrial research_09.png" class="img-fluid mb-5">
-      <p>
-        After having a better understading about the sensors used in the industry and their manufactures, we looked into the FHIR Standards.
-      </p>
-      <img src="assets/img/portfolio/research/team6 - industrial research/team6 - industrial research_02.png" class="img-fluid mb-5">
-      <p>
-        From our MoSCoW requirements, <strong>Security and Reliability</strong> 
-        has a top priority since we are dealing with patients’ healthcare information. 
-        This is why we need FHIR. It ensure that the patients’ electronic health records are available, reliable and understandable.
-      </p>
-      <p>
-        Conveniently, it is also compatible with other widely used standards.
-      </p>
-      <p>
-        We acknowledged its advantages over the other standards.
-      </p>
-      <img src="assets/img/portfolio/research/team6 - industrial research/team6 - industrial research_04.png" class="img-fluid mb-5">
-      <img src="assets/img/portfolio/research/team6 - industrial research/team6 - industrial research_06.png" class="img-fluid mb-5">
-    </div>
-    <hr />
-    <div class="container">
-      <img src="./assets/img/brand/GOSHLOGO.png" style="width: 400px;" class="img-fluid mb-5">
-      <img src="./assets/img/brand/UCL.png" style="width: 400px;" class="img-fluid mb-5">
-    </div>
-    <div class="container">
-      <p>Portfolio - Team 6</p>
-      <p>Team Members: Daulet Batayev, Henry Ching, Tianang Chen</p>
-    </div>  
-  </div>
-  <!--   Core JS Files   -->
-  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/moment.min.js"></script>
-  <script src="./assets/js/plugins/datetimepicker.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/bootstrap-datepicker.min.js"></script>
-  <!-- Control Center for Argon UI Kit: parallax effects, scripts for the example pages etc -->
-  <!--  Google Maps Plugin    -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-  <script src="./assets/js/argon-design-system.min.js?v=1.2.0" type="text/javascript"></script>
-  <script>
-    function scrollToDownload() {
+</section>
+<!-- /Section: Page Header -->
 
-      if ($('.section-download').length != 0) {
-        $("html, body").animate({
-          scrollTop: $('.section-download').offset().top
-        }, 1000);
-      }
-    }
-  </script>
-  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
-  <script>
-    window.TrackJS &&
-      TrackJS.install({
-        token: "ee6fab19c5a04ac1a32a645abde4613a",
-        application: "argon-design-system-pro"
-      });
-  </script>
-</body>
-</html>
+<!-- Main -->
+<main class="main-container">
+    <section>
+        <div class="container">
+            <div class="row">
+    
+                <!-- Blog Sidebar -->
+                <div class="col-md-3">
+    
+                    <!-- Widget: Menu -->
+                    <div class="widget">
+    
+                        <h4 class="title">Menu</h4>
+                        <ul class="sidebar-menu">
+                            <li><a href="#primary-research" class="smooth-scroll">Primary Research</a></li>
+                            <li><a href="#industrial-research" class="smooth-scroll">Industrial Research</a></li>
+                        </ul>
+    
+                    </div>
+                    <!-- /Widget: Menu -->
+    
+                </div>
+    
+                <!-- Blog Content -->
+                <div class="col-md-9">
+    
+                    <!-- Posts List -->
+                    <div class="posts-list">
+    
+                        <section id="primary-research" class="section-small">
+                        <!-- Single Post With Image -->
+                        <article class="blog-post">
+    
+                            <!-- Post Title -->
+                            <h2 class="title">Primary Research</h2>
+                            <!-- /Post Title -->
+    
+                            <!-- Post Content -->
+                            <div class="content">
+                                <p>
+                                    The system will be used in a clinical context, therefore, clients wanted us to get familiar with infusion pumps and 
+                                    asked to conduct primary research on different types of sensors used in infusion pumps. 
+                                </p>
+                                <p>
+                                    We continued our primary research into infusion pumps and now have a better understanding of the purpose of the project. 
+                                    We have made progress by reading official manuals and research papers about smart infusion pumps, 
+                                    which helped us gain deeper understanding of the sensors and other components widely used in infusion pumps 
+                                    such as force sensors, pressure sensors and magnetic position sensor. 
+                                </p>
+                            </div>
+                            <!-- /Post Content -->
+    
+                            <div class="projects-list">
+
+                                <div class="col-sm-6 project-image">
+                                    <a href="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_02.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_02.png">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-sm-6 project-image">
+                                    <a href="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_03.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_03.png">
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-sm-6 project-image">
+                                    <a href="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_04.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_04.png">
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-sm-6 project-image">
+                                    <a href="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_05.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_05.png">
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-sm-6 project-image">
+                                    <a href="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_06.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_06.png">
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-sm-6 project-image">
+                                    <a href="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_07.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_07.png">
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-sm-6 project-image">
+                                    <a href="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_08.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_08.png">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-sm-6 project-image">
+                                    <a href="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_09.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - sensor presentation/team6 - sensor presentation_09.png">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="contents">
+                                <p>
+                                    Some of the documents we read through to get familiar with sensors:
+                                </p>
+                                <ul>
+                                    <li><a href="https://sensing.honeywell.com/SIOT-Solutions-Infusion-Pumps-_008045-10-EN.pdf">Sensors for infusion pump</a></li>
+                                    <li><a href="https://sensing.honeywell.com/honeywell-sensing-basic-board-mount-pressure-abp-series-datasheet-32305128-en.pdf">Force Sensors, Basic ABP Series</a></li>
+                                    <li><a href="https://sensing.honeywell.com/honeywell-sensing-force-fma-series-datasheet-32347833.pdf">MicroForce FMA Series Force Sensors Datasheet</a></li>
+                                    <li><a href="https://sensing.honeywell.com/honeywell-sensing-sensors-linear-hall-effect-ics-ss490-series-datasheet-005843-2-en.pdf">Magnetic position sensors,SS490 Datasheet</a></li>
+                                    <li><a href="https://sensing.honeywell.com/honeywell-test-and-measurement-model-31-high-miniature-load-cell-product-sheet-008631-2-en.pdf">High Range Precision Miniature Load Cells, Model 31 High datasheet</a></li>
+                                    <li><a href="https://sensing.honeywell.com/honeywell-oem-2d-imagers-n670x-series-datasheet-007613.pdf">N670X Series 2D Scan Engines Datasheet</a></li>
+                                </ul>
+                            </div>
+    
+                        </article>
+
+                        </section>
+
+                        <section id="industrial-research" class="section-small">
+                            <article class="blog-post">
+
+                                <!-- Post Title -->
+                                <h2 class="title">Industrial Research</h2>
+                                <!-- /Post Title -->
+        
+                                <!-- Post Content -->
+                                <div class="content">
+                                    <p>
+                                        In this phrase, we were focused on conducting the requested primary research into the types of sensors used in the industrial infusion pumps and 
+                                        looking into the <a href="http://build.fhir.org/">Fast Healthcare Interoperability Resources (FHIR) standards. </a>
+                                    </p>
+                                </div>
+                                <!-- /Post Content -->
+
+                                <!-- Post Image -->
+                                <div class="image">
+                                    <p>
+                                        We first started the research by finding out the biggest infusion pump sensor manufacturers in the world and looking at their sensors. 
+                                        The biggest manufacturers are <a href="https://www.honeywell.com/us/en"> Honeywell</a>, 
+                                        <a href="https://www.te.com/global-en/home.html">TE Connectivity</a>, and 
+                                        <a href="https://www.smdsensors.com/">Strain Measurement Devices (SMD)</a>. 
+                                        All had a long presence in the industry and proved the quality of their sensors.  
+                                    </p>
+                                    <a href="img/portfolio/research/team6 - industrial research/team6 - industrial research_07.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - industrial research/team6 - industrial research_07.png">
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- /Post Image -->
+
+                                <!-- Post Image -->
+                                <div class="image">
+                                    <p>
+                                        Digging deeper into the research we found out that the seminal components in infusion pumps are Force and Pressure sensors. 
+                                        There are many different types of force sensors, however, by far, the most popular ones are S256 by SMD and MicroForce FMA series by Honeywell. 
+                                    </p>
+                                    <a href="img/portfolio/research/team6 - industrial research/team6 - industrial research_08.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - industrial research/team6 - industrial research_08.png">
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- /Post Image -->
+
+                                <!-- Post Image -->
+                                <div class="image">
+                                    <p>
+                                        For the pressure sensors, B354 by SMD and MicroPressure MPR series by Honeywell take the lead.
+                                    </p>
+                                    <a href="img/portfolio/research/team6 - industrial research/team6 - industrial research_09.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - industrial research/team6 - industrial research_09.png">
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- /Post Image -->
+
+                                <!-- Post Image -->
+                                <div class="image">
+                                    <p>
+                                        After having a better understading about the sensors used in the industry and their manufactures, we looked into the FHIR Standards. 
+                                    </p>
+                                    <a href="img/portfolio/research/team6 - industrial research/team6 - industrial research_02.png" class="image-popup">
+                                        <div class="gallery-image">
+                                            <img src="img/portfolio/research/team6 - industrial research/team6 - industrial research_02.png">
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- /Post Image -->
+                                
+
+                                <div class="projects-list">
+                                    <div class="contents">
+                                        <p>
+                                            From our MoSCoW requirements, Security and Reliability has a top priority since we are dealing with patients’ healthcare information. 
+                                            This is why we need FHIR. It ensure that the patients’ electronic health records are available, reliable and understandable.
+                                        </p>
+                                        <p>
+                                            Conveniently, it is also compatible with other widely used standards. 
+                                        </p>
+                                        <p>
+                                            We acknowledged its advantages over the other standards. 
+                                        </p>
+                                    </div>
+
+                                    <div class="col-sm-6 project-image">
+                                        <a href="img/portfolio/research/team6 - industrial research/team6 - industrial research_03.png" class="image-popup">
+                                            <div class="gallery-image">
+                                                <img src="img/portfolio/research/team6 - industrial research/team6 - industrial research_03.png">
+                                            </div>
+                                        </a>
+                                    </div>
+    
+                                    <div class="col-sm-6 project-image">
+                                        <a href="img/portfolio/research/team6 - industrial research/team6 - industrial research_04.png" class="image-popup">
+                                            <div class="gallery-image">
+                                                <img src="img/portfolio/research/team6 - industrial research/team6 - industrial research_04.png">
+                                            </div>
+                                        </a>
+                                    </div>
+                
+                                    <div class="col-sm-6 project-image">
+                                        <a href="img/portfolio/research/team6 - industrial research/team6 - industrial research_05.png" class="image-popup">
+                                            <div class="gallery-image">
+                                                <img src="img/portfolio/research/team6 - industrial research/team6 - industrial research_05.png">
+                                            </div>
+                                        </a>
+                                    </div>
+                
+                                    <div class="col-sm-6 project-image">
+                                        <a href="img/portfolio/research/team6 - industrial research/team6 - industrial research_06.png" class="image-popup">
+                                            <div class="gallery-image">
+                                                <img src="img/portfolio/research/team6 - industrial research/team6 - industrial research_06.png">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+    
+                            </article>
+        
+                        </section>
+                    </div>
+    
+                </div>
+                <!-- /Blog Content -->
+    
+            </div>
+    
+        </div>
+    </section>
+
+</main>
+<!-- /Main -->
+
+<!-- Footer -->
+<footer class="footer section-small">
+    <div class="container">
+        <div class="row">
+    
+            <!-- Footer Column -->
+            <div class="col-md-3 col-xs-6 footer-col">
+    
+                <!-- Footer Logo -->
+                <div class="logo">
+                    <img src="img/brand/NHS.png" style="width: 70px;" alt="">
+                </div>
+                <!-- /Footer Logo -->
+    
+                <!-- Footer Text -->
+                <p class="text">
+                    Group Protofolio Webpage about COMP0016 Team 6 UCL-GOSH Data Interchange for Sensors Classifications
+                </p>
+                <!-- /Footer Text -->
+    
+                <hr>
+    
+                <!-- Copyright -->
+			    <p class="copyright">
+				    Copyright &copy; 2020-2021 
+				    <a href="https://www.gosh.nhs.uk"><strong>GOSH</strong></a>, 
+				    <a href="https://github.com/d-batayev"><strong>Daulet Batayev</strong></a>, 
+				    <a href="https://github.com/henryo01230o"><strong>Henry Ching</strong></a>, 
+				    <a href="https://github.com/akalisvm"><strong>Tianang Chen</strong></a>
+			    </p>
+			    <!-- /Copyright -->
+    
+            </div>
+            <!-- /Footer Column -->		
+    
+            <!-- Footer Column -->
+            <div class="col-md-2 col-xs-6 footer-col">
+    
+                <h3 class="title">Site <span class="text-theme">Menu</span></h3>
+    
+                <!-- Footer Menu -->
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="requirements.html">Requirements</a></li>
+                    <li><a href="research.html">Reseach</a></li>
+                    <li><a href="algorithms.html">Algorithms</a></li>
+                    <li><a href="design.html">Design</a></li>
+                    <li><a href="testing.html">Testing</a></li>
+                    <li><a href="evaluation.html">Evaluation</a></li>
+                    <li><a href="appendices.html">Appendices</a></li>
+                    <li><a href="https://comp0016-team6.github.io/Dev-Blog/">Dev Blog</a></li>
+                </ul>
+                <!-- /Footer Menu -->
+    
+            </div>
+            <!-- /Footer Column -->
+    
+            <!-- Footer Column -->
+			<div class="col-md-4 col-xs-6 footer-col">
+	
+				<h3 class="title">Our <span class="text-theme">Partners</span></h3>
+				<a href="https://www.gosh.nhs.uk">
+					<img src="img/brand/GOSHLOGO.png" style="width: 250px;">
+				</a>
+				<a href="https://ucl.ac.uk">
+					<img src="img/brand/UCL.png" style="width: 300px;">
+				</a>
+			</div>
+			<!-- /Footer Column -->
+	
+			<!-- Footer Column -->
+			<div class="col-md-3 col-xs-6 footer-col">
+	
+				<h3 class="title">Source <span class="text-theme">Code</span></h3>
+	
+				<a href="https://github.com/COMP0016-Team6/NHS-Patient-Dashboard">
+					<img style="width: 300px;" src="img/brand/github.jpg"></img>
+				</a>
+	
+			</div>
+			<!-- /Footer Column -->
+        </div>
+    </div>
+    </footer>
+    <!-- /Footer -->
+    
+    <!-- Scroll To Top -->
+    <div id="scroll-to-top" class="scroll-to-top">
+    <i class="icon fa fa-angle-up"></i>
+    </div>
+    <!-- /Scroll To Top -->
+    
+    <!-- SCRIPTS -->
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/general.js"></script>
+    <!-- /SCRIPTS -->
+    
+    <div class="styleswitcher-button vertical-middle"><i class="fa fa-gear"></i></div>
+    </div>
+    
+    <link rel="stylesheet" type="text/css" href="demo/styleswitcher.css" property="">
+    <script src="demo/styleswitcher.js"></script>
+    <!-- /Styleswitcher -->
+    
+    </body>
+    </html>
